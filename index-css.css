@@ -45,6 +45,8 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  border-color: #E3F6CE;
+  background-color:white;
 }
 .jumbotron .btn {
   padding: 14px 24px;
@@ -82,6 +84,16 @@ body {
 
 /*autosize images for responsiveness*/
 img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
+	border-radius: 50%
+}
+
+.navbar {
+background-color: white;
+border-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+background-color: #E3F6CE;
 }
