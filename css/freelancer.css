@@ -343,11 +343,16 @@ section.success a.active {
     border-color: gold;
 }
 
-.btn-primary:focus, .btn-primary.focus , .btn-primary:hover, .btn-primary:active, {
-    color: gold;
+
+.btn-primary:active:hover, .btn-primary.active:hover, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open>.dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open>.dropdown-toggle.btn-primary.focus, .btn-primary:hover , .btn-primary:focus, .btn-primary.focus
+{
+   color: gold;
     background-color: white;
     border-color: gold;
 }
+
+
+
 
 form .row:first-child .floating-label-form-group  {
     border-top: 1px solid #eee;
